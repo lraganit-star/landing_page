@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px; 
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    padding: 8px; 
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 64px;
+    margin-right: auto;
+}
+
+.header_link {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-left: 16px; 
+}
+
+.title {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: baseline;
+    padding: 64px;
+}
+
+.title_text {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.title_image {
+    background-color: grey;
+    color: #E5E7EB;
+    height: 100px; 
+    width: 250px;
+    padding: 32px;
+    margin: 32px; 
+    font-size: 12px;
+}
+
+.title_header {
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+
+.title_caption {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 10px; 
+    align-self: flex-start;
+    padding: 6px 24px 6px 24px; 
+    border-radius: 6px;
+    border-style: none;
+
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information_title {
+    font-size: 36px;
+    weight: 900;
+    color: #1f2937;
+    align-self: center;
+    padding: 36px; 
+}
+
+.information_container {
+    display: flex;
+    width: 550px;
+
+}
+
+.information_block {
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 64px;
+    margin: 16px;
+}
+
+.information_img {
+    width: 100px;
+    height: 100px; 
+    border-radius: 10%;
+    color: black;
+    border: 2px solid #3882F6;;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 108px;
+    font-size: 36px;
+}
+.quote_author {
+    align-self: flex-end;
+    weight: 200;
+}
+
+.sign_up_module {
+    display: flex;
+    background-color: #3882F6;
+    margin: 72px; 
+    padding: 16px; 
+    color: white;
+    justify-content: space-evenly;
+    width: 700px;
+    align-items: center;
+}
+
+.sign_up_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign_up_header {
+    weight: 300;
+}
+
+.sign_up_caption {
+    weight: 100;
+}
+
+.sign_up_button2 {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 16px; 
+    margin-top: auto; 
+    justify-content: center;
+}
